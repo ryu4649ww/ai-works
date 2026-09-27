@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="index,follow">
+</head>
+<body>
+<title>文章と作業効率化の実績</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1:wght@700;800&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap">
+<style>
+:root{
+  --bg:#F8F8F4; --surface:#FFFFFF; --ink:#1E2428; --sub:#5B646A; --rule:#DCDFD9;
+  --accent:#1E6A72; --accent-soft:#E2EFF0; --mark:#FBE8A6; --del:#B54B3A;
+  --display:"Shippori Mincho B1","Hiragino Mincho ProN","Yu Mincho",serif;
+  --body:"Zen Kaku Gothic New","Hiragino Kaku Gothic ProN","Yu Gothic","Meiryo",sans-serif;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){--bg:#131719;--surface:#1B2124;--ink:#E5EAEC;--sub:#A3AEB3;--rule:#2D363A;--accent:#6CC3CB;--accent-soft:#1D3236;--mark:#5A4A12;--del:#EE8B78;color-scheme:dark}
+}
+:root[data-theme="dark"]{--bg:#131719;--surface:#1B2124;--ink:#E5EAEC;--sub:#A3AEB3;--rule:#2D363A;--accent:#6CC3CB;--accent-soft:#1D3236;--mark:#5A4A12;--del:#EE8B78;color-scheme:dark}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.8}
+.wrap{max-width:820px;margin:0 auto;padding-inline:18px;padding-block:40px 64px}
+header{display:grid;gap:14px;padding-bottom:28px;border-bottom:1px solid var(--rule)}
+.eyebrow{font-size:12px;letter-spacing:.14em;color:var(--sub)}
+h1{font-family:var(--display);font-weight:800;font-size:clamp(28px,6vw,40px);line-height:1.35;margin:0;text-wrap:balance}
+.lead{margin:0;max-width:60ch;color:var(--sub)}
+.facts{display:flex;flex-wrap:wrap;gap:10px 28px;margin-top:6px}
+.facts div{display:grid}
+.facts b{font-family:var(--display);font-size:28px;line-height:1.2;font-variant-numeric:tabular-nums;color:var(--accent)}
+.facts span{font-size:13px;color:var(--sub)}
+h2{font-family:var(--display);font-weight:800;font-size:23px;margin:48px 0 12px;text-wrap:balance}
+p{max-width:66ch}
+.svc{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px}
+.svc article{background:var(--surface);border:1px solid var(--rule);border-radius:10px;padding:16px 18px;display:grid;gap:6px;align-content:start}
+.svc h3{margin:0;font-size:16px}
+.svc p{margin:0;font-size:14px;color:var(--sub)}
+.svc .tag{font-size:12px;font-weight:700;color:var(--accent)}
+ol.articles{margin:0;padding-left:1.6em}
+ol.articles li{padding-block:6px;border-bottom:1px dashed var(--rule)}
+ol.articles a{color:var(--ink);text-decoration-color:var(--accent);text-underline-offset:3px}
+ol.articles a:hover{color:var(--accent)}
+.more{font-size:14px}
+.more a{color:var(--accent)}
+.ba{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.ba figure{margin:0;background:var(--surface);border:1px solid var(--rule);border-radius:10px;padding:14px 16px}
+.ba figcaption{font-size:12px;letter-spacing:.1em;color:var(--sub);margin-bottom:6px;font-weight:700}
+.ba p{margin:0;font-size:15px}
+del{color:var(--del)}
+mark{background:var(--mark);color:inherit;padding:0 2px}
+.why{font-size:14px;color:var(--sub);margin-top:10px}
+.why li{margin-block:2px}
+.tools{display:grid;gap:12px}
+.tools article{border-left:3px solid var(--accent);padding:4px 0 4px 14px}
+.tools h3{margin:0 0 2px;font-size:16px}
+.tools p{margin:0;font-size:14px;color:var(--sub)}
+.flow{font-size:13px;color:var(--accent);font-weight:700;margin-top:4px}
+.note{background:var(--accent-soft);border-radius:10px;padding:14px 18px}
+.note p{margin:0}
+footer{margin-top:48px;padding-top:18px;border-top:1px solid var(--rule);font-size:13px;color:var(--sub)}
+a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+@media (max-width:560px){.ba{grid-template-columns:1fr}}
+</style>
+
+<div class="wrap">
+  <header>
+    <div class="eyebrow">実績のご紹介</div>
+    <h1>出典を確かめて書く文章と、手作業を減らす仕組みづくり</h1>
+    <p class="lead">AIを使って、記事の作成・文章の直し・Excelやスプレッドシートの自動化をお手伝いしています。事実の確認と動作の確認、最終チェックは人が行います。</p>
+    <div class="facts">
+      <div><b>348本</b><span>noteで公開した心理学・行動経済学の記事</span></div>
+      <div><b>3,255</b><span>それらの記事の累計閲覧数（2026年9月）</span></div>
+      <div><b>3つ</b><span>自分の作業のために作って毎日動かしている自動化</span></div>
+    </div>
+  </header>
+
+  <h2>できること</h2>
+  <div class="svc">
+    <article><span class="tag">記事の作成</span><h3>ビジネス・心理学・マーケの記事</h3><p>2,000〜4,000字。数字や研究は出典の中身を確かめてから書き、参考にした出典の一覧を付けます。</p></article>
+    <article><span class="tag">文章の直し</span><h3>校正・書き直し・要約</h3><p>意味を変えずに読みやすく。どこを・なぜ直したかの一覧を付けます。</p></article>
+    <article><span class="tag">作業の効率化</span><h3>Excel・スプレッドシートの自動化</h3><p>関数・集計表・GASで手作業を減らします。見本のデータで動かしてから、1枚の説明書を付けて納めます。</p></article>
+  </div>
+
+  <h2>記事の実績（よく読まれている10本）</h2>
+  <ol class="articles">
+    <li><a href="https://note.com/magic_cosmos1054/n/n8e5d208266a2" target="_blank" rel="noopener">「会うだけで好かれる」は本当だった──単純接触効果（ザイオンス効果）の正体と使い方</a></li>
+    <li><a href="https://note.com/magic_cosmos1054/n/n110a27382444" target="_blank" rel="noopener">「なぜ7つ以上は覚えられないのか」——マジカルナンバー7±2が解き明かす脳の限界と、伝わる情報設計の技術</a></li>
+    <li><a href="https://note.com/magic_cosmos1054/n/n1ac59d723be3" target="_blank" rel="noopener">会ったこともないのに「親友」みたいに感じる——パラソーシャル関係があなたの行動と消費を動かす仕組み</a></li>
+    <li><a href="https://note.com/magic_cosmos1054/n/nc9fc96ab4763" target="_blank" rel="noopener">「気がついたら1時間が経っていた」——ナラティブ・トランスポーテーション（物語没入効果）が人を動かすメカニズム</a></li>
+    <li><a href="https://note.com/magic_cosmos1054/n/n22aea8d1ae65" target="_blank" rel="noopener">「あっちのチームはいつもこうだ」が組織を壊す—究極的な帰属の誤りという盲点</a></li>
+    <li><a href="https://note.com/magic_cosmos1054/n/n2f1261328e22" target="_blank" rel="noopener">交渉前の雑談が、成約率を左右する——好意の原理という、地味だが最強の説得力</a></li>
+    <li><a href="https://note.com/magic_cosmos1054/n/n5ee65e63caa5" target="_blank" rel="noopener">「提案が通らない」本当の理由——できる人は説得ではなく"オーナーシップ"を渡している</a></li>
+    <li><a href="https://note.com/magic_cosmos1054/n/nfd62bad318ca" target="_blank" rel="noopener">「なぜかこの仕事、引き受けない方がいい気がする」—ソマティック・マーカー仮説が示す「身体が先に知っている」意思決定の科学</a></li>
+    <li><a href="https://note.com/magic_cosmos1054/n/n884a1e21358a" target="_blank" rel="noopener">ゴールが近づくほどなぜ人は加速するのか——目標勾配効果がやる気をコントロールする科学</a></li>
+    <li><a href="https://note.com/magic_cosmos1054/n/na011592d4f0c" target="_blank" rel="noopener">「それ知ってる私、ちょっとイケてる」人がシェアするのは商品ではなく自分の価値だった</a></li>
+  </ol>
+  <p class="more">ほかの記事は <a href="https://note.com/magic_cosmos1054" target="_blank" rel="noopener">noteのページ</a> でお読みいただけます。</p>
+
+  <h2>文章の直しの見本</h2>
+  <p>架空の社内連絡を、意味を変えずに読みやすく直した例です。</p>
+  <div class="ba">
+    <figure><figcaption>直す前</figcaption>
+      <p>来週の月曜日の会議についてですが、場所が<del>変更になりましたので</del>、<del>第2会議室ではなく</del>第3会議室に<del>なりますので</del>ご注意<del>いただきますよう</del>お願い<del>いたします</del>。<del>また</del>資料は<del>事前に</del>各自で印刷<del>して頂いて</del>持参してください。</p>
+    </figure>
+    <figure><figcaption>直した後</figcaption>
+      <p><mark>来週月曜日の会議は、場所が第3会議室に変わりました</mark>（第2会議室ではありません）。<mark>資料は各自で印刷して、お持ちください。</mark></p>
+    </figure>
+  </div>
+  <ul class="why">
+    <li>いちばん伝えたい「場所が変わった」を文の頭に出しました。</li>
+    <li>「〜ので」「〜ますよう」が重なって長くなっていたため、2つの文に分けました。</li>
+    <li>「頂いて」と「いただき」の表記ゆれをなくしました。</li>
+  </ul>
+
+  <h2>作業の効率化の実績（自分の仕事で毎日使っているもの）</h2>
+  <p>本業では警備会社の運営に関わっており、勤怠・日報・現場の配置の管理にどれだけ手間がかかるかを、現場で見ています。</p>
+  <div class="tools">
+    <article><h3>記事の自動投稿ツール</h3><p>書き上げた記事をnoteの編集画面へ流し込み、下書きとして保存するまでを自動にしました。1本ずつ手で貼る作業がなくなり、1本1分ほどで終わります。</p><div class="flow">原稿 → 整形 → 編集画面へ流し込み → 下書き保存</div></article>
+    <article><h3>閲覧数の集計と一覧表の自動作成</h3><p>公開した記事の閲覧数を毎日集めて、よく読まれた記事・伸びている記事・在庫の残りを1枚の表にまとめます。見るだけで次にやることが分かります。</p><div class="flow">毎日の数字を取得 → 表に追記 → 一覧ページを作り直す</div></article>
+    <article><h3>作業記録の自動化</h3><p>日々の作業の記録を、メモ・一覧表・データベースの3か所へ同じ内容で残し、件数が合っているかを自動で確かめます。記録漏れにすぐ気づけます。</p><div class="flow">記録 → 3か所に保存 → 件数を照合</div></article>
+  </div>
+
+  <h2>AIの使い方について</h2>
+  <div class="note"><p>作業にはAI（Claude）を使います。数字や固有名詞は出典を開いて確かめ、作ったものは実際に動かして確かめてから納めます。AIの利用に条件がある場合は、ご依頼のときにお知らせください。</p></div>
+
+  <footer>ご依頼・ご相談は、各サービスのページのメッセージからお願いいたします。</footer>
+</div>
+
+</body>
+</html>
